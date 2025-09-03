@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- position relative and absolute start -->
+
+    <div class="position-relative bg-secondary">
+        <div class="position-absolute top-0 start-0  bg-danger"></div>
+        <div class="position-absolute top-0 end-0  bg-danger"></div>
+
+        <div class="position-absolute bottom-50 start-50  bg-danger"></div>
+        <div class="position-absolute top-50 end-50  bg-danger"></div>
+
+        <div class="position-absolute bottom-0 start-0  bg-danger"></div>
+        <div class="position-absolute bottom-0 end-0  bg-danger"></div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+
+    <div class="position-relative bg-info">
+        <div class="position-absolute top-0 start-0 translate-middle bg-warning"></div>
+        <div class="position-absolute top-0 start-50 translate-middle bg-warning"></div>
+        <div class="position-absolute top-0 start-100 translate-middle bg-warning"></div>
+
+        <div class="position-absolute top-50 start-0 translate-middle bg-warning"></div>
+        <div class="position-absolute top-50 start-50 translate-middle bg-warning"></div>
+        <div class="position-absolute top-50 start-100 translate-middle bg-warning"></div>
+
+        <div class="position-absolute top-100 start-0 translate-middle bg-warning"></div>
+        <div class="position-absolute top-100 start-50 translate-middle bg-warning"></div>
+        <div class="position-absolute top-100 start-100 translate-middle bg-warning"></div>
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="position-relative bg-dark">
+        <div class="position-absolute top-0 start-0 bg-success"></div>
+        <div class="position-absolute top-0 start-50 translate-middle-x bg-success"></div>
+        <div class="position-absolute top-0 end-0 bg-success"></div>
+
+        <div class="position-absolute top-50 start-0 translate-middle-y bg-success"></div>
+        <div class="position-absolute top-50 start-50 translate-middle bg-success"></div>
+        <div class="position-absolute top-50 end-0 translate-middle-y bg-success"></div>
+
+        <div class="position-absolute bottom-0 start-0 bg-success"></div>
+        <div class="position-absolute bottom-0 start-50 translate-middle-x bg-success"></div>
+        <div class="position-absolute bottom-0 end-0 bg-success"></div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <button type="button" class="btn btn-primary position-relative">
+        Unread <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill text-bg-secondary">+99 <span class="visually-hidden">unread messages</span></span>
+    </button>
+
+
+    <!-- position relative and absolute end -->
+
+
+
+
+
+</body>
+</html>
